@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -30,7 +29,7 @@ class _SplashPagesState extends State<SplashPages> with SingleTickerProviderStat
         opacity: _isVisible?1:0,
         duration: Duration(milliseconds: 1000),
         child: Center(
-          child: Image.asset('assets/image/Plus_white.webp',
+          child: Image.asset('assets/image/flag_UZB.jpg',
             width: MediaQuery.of(context).size.width*0.6,),
         ),
       ),
@@ -42,7 +41,7 @@ class _SplashPagesState extends State<SplashPages> with SingleTickerProviderStat
       setState(() {
         _isVisible = false;
       });
-      Navigator.pushNamed(context, '/MainView');
+      Navigator.pushNamed(context, '/AllPage');
     });
   }
 }
