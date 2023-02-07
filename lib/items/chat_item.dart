@@ -10,7 +10,6 @@ Widget chatItem(BuildContext context, ChatModel item) {
     height: 70,
     child: Row(
       crossAxisAlignment: CrossAxisAlignment.center,
-
       children: [
         SizedBox(
           height:50,
@@ -26,12 +25,9 @@ Widget chatItem(BuildContext context, ChatModel item) {
         Expanded(
           child: Column(
             crossAxisAlignment: CrossAxisAlignment.start,
-
             children: [
-
               Text(
                 item.name,
-
               ),
               SizedBox(
                 height: 10,
